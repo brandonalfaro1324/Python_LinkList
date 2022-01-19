@@ -4,9 +4,8 @@ class Struct_link_data:
         self.data = string_data
     
 
-class Node():
-
-    def __init__(self, int_id = 0, string_data = "", next_node = None, prev_node = None):
+class Node:
+    def __init__(self, int_id=0, string_data="", next_node=None, prev_node=None):
         self.next = next_node
         self.prev = prev_node
 
